@@ -2,6 +2,10 @@
 
 A machine learning project that predicts house prices using square footage, number of bedrooms, and number of bathrooms.
 
+## 🚀 Live Demo
+
+[Open the House Price Predictor](https://harikaramuthanarumugam-house-price-prediction-app-hz2x6z.streamlit.app/)
+
 ## Features
 
 - Linear Regression model
