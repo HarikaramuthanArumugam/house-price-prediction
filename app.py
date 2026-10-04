@@ -13,6 +13,10 @@ st.set_page_config(
 st.markdown("""
 <style>
 
+header[data-testid="stHeader"] {
+    background: transparent;
+}
+
 .stApp {
     background: linear-gradient(135deg, #111827 0%, #1e1b4b 50%, #172554 100%);
 }
