@@ -14,7 +14,7 @@ st.markdown("""
 <style>
 
 .stApp {
-    background: linear-gradient(135deg, #fff7ed 0%, #f5f3ff 50%, #eff6ff 100%);
+    background: linear-gradient(135deg, #111827 0%, #1e1b4b 50%, #172554 100%);
 }
 
 .block-container {
@@ -24,12 +24,20 @@ st.markdown("""
 }
 
 h1 {
-    color: #312e81;
+    color: #c4b5fd !important;
     font-size: 44px !important;
 }
 
 h2, h3 {
-    color: #4338ca;
+    color: #a5b4fc !important;
+}
+
+p, label, .stCaption {
+    color: #e5e7eb !important;
+}
+
+.stMarkdown {
+    color: #e5e7eb;
 }
 
 .stButton > button {
@@ -37,7 +45,7 @@ h2, h3 {
     border-radius: 12px;
     border: none;
     background: linear-gradient(90deg, #7c3aed, #ec4899);
-    color: white;
+    color: white !important;
     font-weight: 700;
     height: 50px;
     font-size: 16px;
@@ -45,28 +53,30 @@ h2, h3 {
 
 .stButton > button:hover {
     background: linear-gradient(90deg, #6d28d9, #db2777);
-    color: white;
+    color: white !important;
 }
 
 [data-testid="stMetric"] {
-    background: white;
+    background: #1e293b;
     border-radius: 18px;
     padding: 20px;
-    border: 1px solid #e5e7eb;
-    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.07);
+    border: 1px solid #475569;
 }
 
 [data-testid="stMetricValue"] {
-    color: #4338ca;
+    color: #c4b5fd !important;
 }
 
 [data-testid="stMetricLabel"] {
-    color: #64748b;
+    color: #cbd5e1 !important;
+}
+
+[data-testid="stAlert"] {
+    color: #e5e7eb !important;
 }
 
 </style>
 """, unsafe_allow_html=True)
-
 
 # ---------------- MODEL ----------------
 
